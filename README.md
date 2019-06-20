@@ -27,7 +27,7 @@ make mkdssp
 export PATH="/path/to/xssp-?.?.?:$PATH"
 ```
 
-[5] Done! Executable in terminal: `mkdssp` or Python:
+[5] Done! Executable in terminal with `mkdssp` or in Python:
 ```python
 from Bio.PDB import DSSP, PDBParser
 parser = PDBParser()
